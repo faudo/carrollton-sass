@@ -1,0 +1,209 @@
+///////////////////
+//THEME VARIABLES//
+///////////////////
+
+//use these as shortcuts or reminders of theme guidelines when filling out styles below
+
+$base-font-size: 19px;
+$mainfont: 'Open Sans';
+$headerfont: 'Open Sans';
+$green: #104622;
+$pink: #f38466;
+$light-pink: #f7a68c;
+$grey: #938b86;
+$light-grey: #e6e6e6;
+$white: white;
+
+
+//////////////////////////////////////////
+////////////////HEADER////////////////////
+//////////////////HEADER//////////////////
+////////////////////HEADER////////////////
+//////////////////////////////////////////
+$header-background: white;
+$header-border-bottom: 5px solid $green;
+$mobile-hamburger-color: $green;
+
+//main navigation menu ($mn)
+$mn-font: $mainfont;
+$mn-font-size: 20px;
+$mn-text-color: $grey;
+$mn-text-transform: none;
+$mn-border-top: none;
+$mn-border-bottom: none;
+$mn-spacing-x: 5px;
+$mn-spacing-y: 2px;
+//hover
+$mn-text-color-hover: $light-pink;
+$mn-decoration-hover: none;//either 'none' or 'underline'.
+$mn-background-color-hover: transparent;
+$mn-border-top-hover: none;
+$mn-border-bottom-hover: none;
+//active (styles for current menu item)
+$mn-active-text-color: $light-pink;
+$mn-active-decoration: none;//either 'none' or 'underline'.
+$mn-active-background-color: $white;
+$mn-active-border-top: none;
+$mn-active-border-bottom: 2px solid $grey;
+
+
+//dropdown menu ($dd)
+$dd-background: $light-pink;
+$dd-link-color: $white;
+$dd-font-size: 18px;
+$dd-caret-color: $light-pink;//arrow next to dropdown link
+//hover
+$dd-hover-color: $grey;
+$dd-hover-decoration: none; //either 'none' or 'underline'.
+$dd-hover-background-color: transparent;
+//active
+$dd-active-color: $green;
+$dd-active-decoration: none; //either 'none' or 'underline'.
+$dd-active-background-color: transparent;
+
+//header button
+$hb-text-color: white;
+$hb-font: $mainfont;
+$hb-font-size: 20px;
+$hb-background-color: $light-pink;
+$hb-border-color: $green;
+$hb-box-shadow: none; // https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+//header button hover
+$hb-background-color-hover: $green;
+$hb-text-color-hover: $white;
+$hb-border-color-hover: transparent;
+
+
+///////////////////////////////////////////////////
+/////////////////SAMPLE STYLES/////////////////////
+///////////////////SAMPLE STYLES///////////////////
+/////////////////////SAMPLE STYLES/////////////////
+///////////////////////////////////////////////////
+
+//fonts
+$header-font: $mainfont;
+$header-text-transform: uppercase;
+$main-text-font: $mainfont;
+$h1-font-weight: bold;
+$h2-font-weight: bold;
+$h3-font-weight: bold;
+$h4-font-weight: bold;
+
+//text-color
+$h1-color: $green;
+$h2-color: $light-pink;
+$h3-color: $grey;
+$h4-color: $light-pink;
+$main-text-color: $grey;
+$link-color: $pink;
+$link-decoration: underline; // either 'underline' or 'none'.
+$link-color-hover: $light-pink;
+$link-decoration-hover: underline; // either 'underline' or 'none'.
+$ol-number-color: $green; //numbered list - number color
+$ul-bullet-color: $green; //bulleted list - bullet color
+
+//button ($bt)
+$bt-font: $mainfont;
+$bt-font-weight: normal;
+$bt-font-size: 20px;
+$bt-text-color: $white;
+$bt-text-transform: uppercase; //choose from 'uppercase', 'capitalize', 'lowercase', or 'none'.
+$bt-background-color: $light-pink;
+$bt-padding: 5px 40px;
+$bt-border-width: 2px;
+$bt-border-color: $green;
+$bt-border-radius: 0px;
+$bt-box-shadow: none; // https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+//button hover
+$bt-background-color-hover: $green;
+$bt-text-color-hover: $white;
+$bt-border-color-hover: $light-pink;
+
+//misc
+$blockquote-text-color: $grey;
+$blockquote-border-color: $light-pink;
+
+
+
+
+////////////////////////////////////////
+////////////////HOME////////////////////
+//////////////////HOME//////////////////
+////////////////////HOME////////////////
+////////////////////////////////////////
+
+//slideshow
+$ss-background-color: $light-pink;
+$ss-border-bottom: none;
+$ss-text-color: $white;
+$ss-font-size: 20px;
+//slideshow button
+$ss-bt-text-color: $white;
+$ss-bt-background-color: $light-pink;
+$ss-bt-border-color: $green;
+$ss-bt-box-shadow: none; // https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+//slideshow button hover
+$ss-bt-text-color-hover: $white;
+$ss-bt-background-color-hover: $green;
+$ss-bt-border-color-hover: $green;
+$ss-bt-box-shadow-hover: none; // https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+
+//home copy
+$hcopy-text-color: $grey;
+$hcopy-font-size: 20px;
+
+//home columns
+$hc-background-color: $light-grey;
+$hc-border: none;
+$hc-header-color: $light-pink;
+$hc-header-background: transparent;
+
+//home additional content
+$hac-background-color: $light-pink;
+$hac-border-top: 10px solid $green;
+$hac-header-color: $green;
+$hac-image-border: none;//also applies to google map iframes in this section
+$hac-text-color: $white;
+$hac-font-size: 19px;
+
+
+///////////////////////////////////////////
+////////////////SIDEBAR////////////////////
+//////////////////SIDEBAR//////////////////
+////////////////////SIDEBAR////////////////
+///////////////////////////////////////////
+//sidebar ($s)
+$s-header-color: $green;
+$s-link-color: $grey;
+$s-link-color-hover: $light-pink;
+$s-link-decoration-hover: none; // either 'underline' or 'none'.
+
+
+
+//////////////////////////////////////////
+////////////////FOOTER////////////////////
+//////////////////FOOTER//////////////////
+////////////////////FOOTER////////////////
+//////////////////////////////////////////
+//footer ($ft)
+$ft-background-color: $grey;
+$ft-border-top: 7px solid $white;
+$ft-h4-color: $white;
+$ft-h4-border-bottom: 2px solid $green;
+$ft-text-color: $white;
+$ft-text-color-hover: $green;
+$ft-text-decoration-hover: underline; // either 'underline' or 'none'.
+
+
+
+///////////////////////////////////////////
+////////////////CONTACT////////////////////
+//////////////////CONTACT//////////////////
+////////////////////CONTACT////////////////
+///////////////////////////////////////////
+$google-maps-border: 4px solid $green;
+$form-border: 1px solid $green;
+
+
+
+
